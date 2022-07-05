@@ -426,7 +426,7 @@ d="page top">
                     <!-- an error submitting the form-->
                     <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                     <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-success btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+                    <div class="text-center"><button class="btn btn-success btn-xl text-uppercase disabled" id="submitButton" type="submit" onclick="sendemail()">Send Message</button></div>
                 </form>
             </div>
         </section>
@@ -729,4 +729,18 @@ d="page top">
 		* * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
+    <script>
+        function sendemail() {
+         var params={
+          from_name:document.getElementById('name').value,
+          name:document.getElementById('name').value,
+          email_id:document.getElementById('email').value,
+          phone_no:document.getElementById('phone').value,
+          message:document.getElementById('message').value
+         }
+         emailjs.send("service_z2kl2jx","template_3ykuwxz",params).then(function(res){
+          alert("scess",res.status);
+         });
+        }
+    </script>
 </html>
