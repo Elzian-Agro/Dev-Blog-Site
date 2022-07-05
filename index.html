@@ -736,19 +736,26 @@ d="page top">
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 		* * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+        <script>
+            function sendemail() {
+            let from_name=document.getElementById('name').value;
+            let name=document.getElementById('name').value;
+            let email_id=document.getElementById('email').value;
+            let phone_no=document.getElementById('phone').value;
+            let message=document.getElementById('message').value;
+            if(from_name!==""&& name!=="" && email_id!=="" && phone_no!=="" && message!==""){
+                    var params={
+                    from_name:from_name,
+                    name:name,
+                    email_id:email_id,
+                    phone_no:phone_no,
+                    message:message
+                    }
+                    emailjs.send("service_z2kl2jx","template_3ykuwxz",params).then(function(res){
+                    alert("scess",res.status);
+                    });
+                }
+            }
+        </script>
     </body>
-    <script>
-        function sendemail() {
-         var params={
-          from_name:document.getElementById('name').value,
-          name:document.getElementById('name').value,
-          email_id:document.getElementById('email').value,
-          phone_no:document.getElementById('phone').value,
-          message:document.getElementById('message').value
-         }
-         emailjs.send("service_z2kl2jx","template_3ykuwxz",params).then(function(res){
-          alert("scess",res.status);
-         });
-        }
-    </script>
 </html>
