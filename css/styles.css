@@ -13,6 +13,9 @@
 .service-icon-color{
   color: #06a223;
 }
+.blog-content-li{
+  text-align: left;
+}
 
 :root {
   --bs-blue: #0d6efd;
