@@ -13,6 +13,9 @@
 .service-icon-color{
   color: #06a223;
 }
+.blog-content-li{
+  text-align: left;
+}
 
 :root {
   --bs-blue: #0d6efd;
@@ -604,7 +607,7 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 500;
 }
 
 .img-thumbnail {
@@ -11400,7 +11403,7 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fff;
+  color: #0d3b25d4;
   background-image: url("../assets/img/header.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
