@@ -11406,7 +11406,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #0d3b25d4;
-  background-color: #0a7512d4;
+  background-image:linear-gradient(to right, #0a7512d4,#96CF24);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
