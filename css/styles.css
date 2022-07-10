@@ -11795,11 +11795,12 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .mongo-th{
-  border: 1px solid #dddddd;
+  border: 1px solid #3c9238;
   text-align: left;
   padding: 8px;
   text-align: center;
 }
 .mongo-tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #3c9238;
+  color: white;
 }
