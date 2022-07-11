@@ -11807,6 +11807,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 .mongo-tr:nth-child(even) {
   background-color: #3c9238;
+  background-image: linear-gradient(to right, #3c9238 , #54C04F);
   color: white;
 }
 
@@ -11833,6 +11834,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .mongo-feature:hover{
   background-color: #FFBCA7;
+  background-image: linear-gradient(to left, #FFBCA7 , #f6f6f6);
 }
 
 .mongo-why{
@@ -11873,6 +11875,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .mongo-work-enviro-p:hover{
   background-color: #E7F9FF;
+  background-image: linear-gradient(to left, #f6f6f6 , #E7F9FF);
+
 }
 
 
