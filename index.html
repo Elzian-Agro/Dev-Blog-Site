@@ -1275,51 +1275,50 @@
                                     <br>
 
                                     <h3>Why MongoDB?</h3>
-                                    <p>There are four major reasons why MongoDB is being deployed more often. They are,</p>
-                                    <ol style="text-align: justify">
-                                        <li><b>Flexibility</b></li>
-                                            <p><i>MongoDB uses documents that can contain sub-documents in complex hierarchies making it expressive and flexible. MongoDB can map objects from any programming language, ensuring easy implementation and maintenance.</i></p>
+                                    <p style="text-align: center;">There are four major reasons why MongoDB is being deployed more often. They are,</p>
+                                
+                                        <h6 style="text-align: center;">Flexibility</h6>
+                                            <p style="text-align: center;"><i>MongoDB uses documents that can contain sub-documents in complex hierarchies making it expressive and flexible. MongoDB can map objects from any programming language, ensuring easy implementation and maintenance.</i></p>
                                     
-                                        <li><b>Flexible Query Model</b></li>
-                                            <p><i>The user can selectively index some parts of each document or a query based on regular expressions, ranges, or attribute values, and have as many properties per object as needed by the application layer.</i></p>
+                                        <h6 style="text-align: center;">Flexible Query Model</h6>
+                                            <p style="text-align: center;"><i>The user can selectively index some parts of each document or a query based on regular expressions, ranges, or attribute values, and have as many properties per object as needed by the application layer.</i></p>
                                         
-                                        <li><b>Native Aggregation</b></li>
-                                            <p><i>Native aggregation allows users to extract and transform data from the database. The data can either be loaded into a new format or exported to other data sources.</i></p>
+                                        <h6 style="text-align: center;">Native Aggregation</h6>
+                                            <p style="text-align: center;"><i>Native aggregation allows users to extract and transform data from the database. The data can either be loaded into a new format or exported to other data sources.</i></p>
                                         
-                                        <li><b>Schema-less model</b></li>
-                                            <p><i>Applications get the power and responsibility to interpret different properties found in a collection's.</i></p>
+                                        <h6 style="text-align: center;">Schema-less model</h6>
+                                            <p style="text-align: center;"><i>Applications get the power and responsibility to interpret different properties found in a collection's.</i></p>
                                     </ol>
                                     
                                     <br>
 
                                     <h3>Features of MongoDB</h3>
                                     <img class="img-fluid d-block mx-auto" src="img/mongo-img3.png" alt="..." />
-                                    <ul style="text-align: justify">
-                                        <li><b>General-Purpose Database</b></li>
-                                            <p><i>MongoDB can serve diverse sets of data and multiple purposes within a single application.</i></p>
+                                        
+                                        <h6 style="text-align:center;">General-Purpose Database</h6>
+                                            <p style="text-align:center;"><i>MongoDB can serve diverse sets of data and multiple purposes within a single application.</i></p>
 
-                                        <li><b>Flexible Schema Design</b></li>
-                                            <p><i>The document-oriented approach allows non-defined attributes to be modified on the fly. This is a key contrast between MongoDB and other relational databases.</i></p>
+                                        <h6 style="text-align:center;">Flexible Schema Design</h6>
+                                            <p style="text-align:center;"><i>The document-oriented approach allows non-defined attributes to be modified on the fly. This is a key contrast between MongoDB and other relational databases.</i></p>
                                         
-                                        <li><b>Load Balancing and Scalability</b></li>
-                                            <p><i>It is built to scale, both vertically and horizontally. Using the technique of sharding, an architect can achieve both write and read scalability. Data balancing occurs automatically and transparently to the user by the shard balancer.</i></p>
+                                        <h6 style="text-align:center;">Load Balancing and Scalability</h6>
+                                            <p style="text-align:center;"><i>It is built to scale, both vertically and horizontally. Using the technique of sharding, an architect can achieve both write and read scalability. Data balancing occurs automatically and transparently to the user by the shard balancer.</i></p>
                                         
-                                        <li><b>Aggregation Framework</b></li>
-                                            <p><i>MongoDB offers an Extract, Transform, Load (ETL) framework which eliminates the need for complex data pipelines.</i></p>
+                                        <h6 style="text-align:center;">Aggregation Framework</h6>
+                                            <p style="text-align:center;"><i>MongoDB offers an Extract, Transform, Load (ETL) framework which eliminates the need for complex data pipelines.</i></p>
                                         
-                                        <li><b>Native Replication</b></li>
-                                            <p><i>Data gets replicated across a replica set without a complicated setup.</i></p>
+                                        <h6 style="text-align:center;">Native Replication</h6>
+                                            <p style="text-align:center;"><i>Data gets replicated across a replica set without a complicated setup.</i></h6>
                                         
-                                        <li><b>Security Features</b></li>
-                                            <p><i>Autantication and authorization are taken into account.</i></p>
+                                        <h6 style="text-align:center;">Security Features</h6>
+                                            <p style="text-align:center;"><i>Autantication and authorization are taken into account.</i></p>
 
-                                        <li><b>JSON</b></li>
-                                            <p><i>JSON is widely used across for frontend and API communication. It only makes sense for the database to use the same protocol.</i></p>
+                                        <h6 style="text-align:center;">JSON</h6>
+                                            <p style="text-align:center;"><i>JSON is widely used across for frontend and API communication. It only makes sense for the database to use the same protocol.</i></p>
                                         
-                                        <li><b>MapReduce</b></li>
-                                            <p><i>MongoDB offers a great tool, MapReduce to build data pipelines.</i></p>
+                                        <h6 style="text-align:center;">MapReduce</h6>
+                                            <p style="text-align:center;"><i>MongoDB offers a great tool, MapReduce to build data pipelines.</i></p>
                                     
-                                    </ul>
                                     
                                     <br>
 
@@ -1342,26 +1341,30 @@
 
                                     <h3>Working Environment of MongoDB</h3>
                                     <br>
-                                    <img class="img-fluid d-block mx-auto" src="img/mongo-img4.png" alt="..." />
-
-                                    <p>The entire database consists of collections. These collections hold multiple documents, and since
+                                    <div style="display:flex; flex-direction:row;">
+                            
+                                        <img class="img-fluid d-block mx-auto" src="img/mongo-img4.png" alt="..." />
+                        
+                                        <p style="margin-left: 10px;">The entire database consists of collections. These collections hold multiple documents, and since
                                         MongoDB is schemaless, the documents in one collection need not be similar. All data is stored as BSON
                                         documents with the halp of key-value pairs. At the backend, MongoDB converts JSON data into a binary
                                         format known as BSON. MongoDB also makes provision for nested data. This makes fetching data
                                         comparatively efficient. 
-                                    </p>
+                                        </p>
+                                    
+                                    </div>
                                     
                                     <br>
 
                                     <h3>MongoDB Applications</h3>
-                                    <p>Several areas of technology use MongoDB as their Database Management System.</p>
+                                    <p style="text-align: center;">Several areas of technology use MongoDB as their Database Management System.</p>
                                     <img class="img-fluid d-block mx-auto" src="img/mongo-img5.png" alt="..." />
-                                    <p>Internet of Things(IoT), mobile applications, real-time analysis, personalization, catalog management, and content management, among others, readily deploy MongoDB.</p>
+                                    <p style="text-align: center;">Internet of Things(IoT), mobile applications, real-time analysis, personalization, catalog management, and content management, among others, readily deploy MongoDB.</p>
                                     
                                     <br>
                                     
                                     <h3>MongoDB vs SQL Server</h3>
-                                    <p>The key difference between MongoDB and SQL Server</p>
+                                    <p style="text-align: center;">The key difference between MongoDB and SQL Server</p>
 
                                     <table class="mongo-table">
                                         <tr class="mongo-tr">
