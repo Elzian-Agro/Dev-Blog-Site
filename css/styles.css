@@ -3102,17 +3102,17 @@ textarea.form-control-lg {
 
 .btn-success {
   color: #fff;
-  background-color: #198754;
-  border-color: #198754;
+  background-color: #007300;
+  border-color: #007300;
 }
 .btn-success:hover {
   color: #fff;
-  background-color: #157347;
+  background-color: #007300;
   border-color: #146c43;
 }
 .btn-check:focus + .btn-success, .btn-success:focus {
   color: #fff;
-  background-color: #157347;
+  background-color: #007300;
   border-color: #146c43;
   box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
 }
@@ -3126,8 +3126,8 @@ textarea.form-control-lg {
 }
 .btn-success:disabled, .btn-success.disabled {
   color: #fff;
-  background-color: #198754;
-  border-color: #198754;
+  background-color: #007300;
+  border-color: #007300;
 }
 
 .btn-info {
@@ -11344,7 +11344,7 @@ p {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #212529;
+  background-color: #454749;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -11370,7 +11370,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: #03fc1c;
 }
 
 @media (min-width: 992px) {
@@ -11392,7 +11392,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color:#555555;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -11789,8 +11789,13 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .mongo-td {
   border: 1px solid #dddddd;
-  text-align: left;
+  text-align: center;
   padding: 8px;
+  transition: all 0.5s ease;
+}
+
+.mongo-td:hover{
+  transform: scale(1.1);
 }
 
 .mongo-th{
@@ -11801,5 +11806,79 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 .mongo-tr:nth-child(even) {
   background-color: #3c9238;
+  background-image: linear-gradient(to right, #3c9238 , #54C04F);
   color: white;
 }
+
+.mongo-benifits{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background-color: #f6f6f6;
+    color: black;
+    transition: all 0.5s ease;
+}
+
+.mongo-benifits:hover{
+  background-color: #DDFFDA;
+  transform: scale(1.1);
+}
+
+.mongo-feature{
+  background-color: #f6f6f6;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
+  transition: all 0.5s ease;
+}
+
+.mongo-feature:hover{
+  background-color: #FFBCA7;
+  background-image: linear-gradient(to left, #FFBCA7 , #f6f6f6);
+}
+
+.mongo-why{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.mongo-why-sub{
+  width: 24rem;
+  height: 15rem;
+  padding: 25px 10px 15px; 
+  margin: 13px;
+  border: none;
+  background-color: #f6f6f6;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.mongo-why-sub:hover{
+  background-color: #3c9238;
+  background-image: linear-gradient(to right, #3c9238 , #54C04F);
+  color: white;
+}
+
+.mongo-work-enviro{
+  display: flex;
+  flex-direction: row;
+}
+
+.mongo-work-enviro-p{
+  margin-left: 10px;
+  background-color: #f6f6f6;
+}
+
+.mongo-work-enviro-p:hover{
+  background-color: #E7F9FF;
+}
+
+
+
+
+
+
+
