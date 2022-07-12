@@ -70,8 +70,8 @@
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
-}
 
+}
 *,
 *::before,
 *::after {
@@ -4518,7 +4518,6 @@ textarea.form-control-lg {
 .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
-
 .card {
   position: relative;
   display: flex;
