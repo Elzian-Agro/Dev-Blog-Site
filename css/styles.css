@@ -11826,14 +11826,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .mongo-feature{
   background-color: #f6f6f6;
-  padding-bottom: 3px;
-  margin-bottom: 5px;
   transition: all 0.5s ease;
 }
 
 .mongo-feature:hover{
   background-color: #FFBCA7;
-  background-image: linear-gradient(to left, #FFBCA7 , #f6f6f6);
 }
 
 .mongo-why{
@@ -11845,11 +11842,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .mongo-why-sub{
-  width: 24rem;
-  height: 15rem;
-  padding: 25px 10px 15px; 
-  margin: 13px;
-  border: none;
   background-color: #f6f6f6;
   border-radius: 4px;
   transition: all 0.3s ease;
@@ -11860,6 +11852,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-color: #3c9238;
   background-image: linear-gradient(to right, #3c9238 , #54C04F);
   color: white;
+}
+
+.mongo-why-sub2{
+  margin: 3px;
+
 }
 
 .mongo-work-enviro{
