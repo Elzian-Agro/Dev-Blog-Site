@@ -11787,6 +11787,13 @@ section#contact form#contactForm :-ms-input-placeholder {
   width: 100%;
 }
 
+.mongo-table_UI {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .mongo-td {
   border: 1px solid #dddddd;
   text-align: center;
@@ -11874,7 +11881,87 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 
+.box {
+  width: 300px;
+  height: 455px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 80px;
+  margin: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.4);
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
 
+.box h3 {
+  font-size: 35px;
+  color: #777;
+}
+
+.box button {
+  width: 140px;
+  height: 40px;
+  background-color: #00b712;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 17px;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-top: 40px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.box button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+  opacity: 1;
+}
+
+.box::before {
+  width: 100%;
+  height: 100%;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.box::after {
+  width: 100%;
+  height: 100%;
+  background-color: #00b712;
+  background-image: linear-gradient(45deg, #006838 0%, #96cf24 100%);
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  clip-path: circle(20% at 90% 10%);
+  transition: 0.2s;
+}
+
+/*.box .count {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #fff;
+}*/
+
+.box:hover::after {
+  clip-path: circle(100%);
+}
+
+.box:hover h3 {
+  color: #000;
+}
 
 
 
