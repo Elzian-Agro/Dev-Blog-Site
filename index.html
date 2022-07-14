@@ -25,12 +25,15 @@
                 emailjs.init('8YsTs6y-pqPCyrLQN');
             })();
         </script>
+
+  
+
     </head>
-		    <body id="page top">
+		<body id="page top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         </div>
-        <img class="logo" src="img/elzian_agro-bg.png" height="105" width="200" alt="..."/>
+        <img class="logo img-fluid" src="img/logo_Elzian.png"  alt="..."/>
         <div class="container">
             <a class="navbar-brand" href="#page-top"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -52,7 +55,8 @@
         <header class="masthead ocean">
             <div class="container">
                 <div class="masthead-subheading">Welcome To Elzian Agro Developers Blog!</div>
-                <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+                
+                <div class="masthead-heading">It's Nice To Meet You</div>
                 <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
                 <div class="bubble bubble--1"></div>
                 <div class="bubble bubble--2"></div>
@@ -169,7 +173,7 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                                <img class="img-fluid" src="img/mern_logo.png" height="400" width="500" alt="..."/>
+                                <img class="img-fluid" src="img/MERN_blog.png" height="400" width="500" alt="..."/>
                             </a>
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">MERN Stack</div>
@@ -278,6 +282,14 @@
                             <div class="portfolio-caption">
                                 <div class="portfolio-caption-heading">MongoDB </div>     
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 9-->
+                        <div class="box">
+                            <h3>UI/UX Design</h3>
+                            <img src="img/UI_UX.png" alt="..." height="200" width="250" class="img-fluid"/>
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal9"><button>Click</button></a>
                         </div>
                     </div>
                 </div>
@@ -446,6 +458,15 @@
                             <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/semini.danoja"><i class="fab fa-facebook-f"></i></a>
                       </div>
                     </div>
+					<div class="col-lg-4">
+                      <div class="team-member"><img src="img/himaya.jpg" width="579" height="564" alt=""/>
+                          <h4>Himaya Perera</h4>
+                            <p class="text-muted"> Mobile Application Developer Intern</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/himaya-perera-b84356207/"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/himaya.perera.2"><i class="fab fa-facebook-f"></i></a>
+                      </div>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Coming together is a beginning, staying together is progress, and working together is a success.</p></div>
@@ -457,7 +478,7 @@
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="section-subheading text-muted">Dont be afraid to contact us.</h3>
                 </div>
                 <!-- * * * * * * * * * * * * * * *-->
                 <!-- * * SB Forms Contact Form * *-->
@@ -512,7 +533,7 @@
                     <!-- an error submitting the form-->
                     <div  id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
                     <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-warning btn-xl text-uppercase disabled" id="submitButton" type="submit" onclick="sendemail()">Send Message</button></div>
+                    <div class="text-center"><button class="btn btn-success btn-xl text-uppercase disabled" id="submitButton" type="submit" onclick="sendemail()">Send Message</button></div>
                 </form>
             </div>
         </section>
@@ -1195,7 +1216,8 @@
                                             <!-- Project details-->
         
                                             <h2 class="text-uppercase">MERN Stack</h2>
-                                            <p class="item-intro text-muted">MERN Stack stands for the popular technologies named MongoDB, Express, React, Node. These technologies differ from each other, but by making them work together and with the right knowledge many different innovations can happen.</p>
+                                            <br>
+                                            <p class="item-intro text">MERN Stack stands for the popular technologies named MongoDB, Express, React, Node. These technologies differ from each other, but by making them work together and with the right knowledge many different innovations can happen.</p>
                                             <img class="img-fluid d-block mx-auto" src="img/mernStack_blog.jpg" alt="..." />
                                             <h3><b>MERN components</b></h3>
                                             <p>This stack consists of 5 different technologies that can do various tasks and has mutliple properties.
@@ -1275,93 +1297,118 @@
                                     <br>
 
                                     <h3>Why MongoDB?</h3>
-                                    <p>There are four major reasons why MongoDB is being deployed more often. They are,</p>
-                                    <ol style="text-align: justify">
-                                        <li><b>Flexibility</b></li>
-                                            <p><i>MongoDB uses documents that can contain sub-documents in complex hierarchies making it expressive and flexible. MongoDB can map objects from any programming language, ensuring easy implementation and maintenance.</i></p>
-                                    
-                                        <li><b>Flexible Query Model</b></li>
-                                            <p><i>The user can selectively index some parts of each document or a query based on regular expressions, ranges, or attribute values, and have as many properties per object as needed by the application layer.</i></p>
+                                    <p style="text-align: center;">There are four major reasons why MongoDB is being deployed more often. They are,</p>
+                                    <div class="mongo-why row">
+                                        <div class="mongo-why-sub col-md-6">
+                                            <div class="mongo-why-sub2">
+                                                <h6 style="text-align: center;">Flexibility</h6>
+                                                <p style="text-align: center;"><i>MongoDB uses documents that can contain sub-documents in complex hierarchies making it expressive and flexible. MongoDB can map objects from any programming language, ensuring easy implementation and maintenance.</i></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="mongo-why-sub col-md-6">
+                                            <div class="mongo-why-sub2">    
+                                                <h6 style="text-align: center;">Flexible Query Model</h6>
+                                                <p style="text-align: center;"><i>The user can selectively index some parts of each document or a query based on regular expressions, ranges, or attribute values, and have as many properties per object as needed by the application layer.</i></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="mongo-why-sub col-md-6">
+                                            <div class="mongo-why-sub2">
+                                                <h6 style="text-align: center;">Native Aggregation</h6>
+                                                <p style="text-align: center;"><i>Native aggregation allows users to extract and transform data from the database. The data can either be loaded into a new format or exported to other data sources.</i></p>
+                                            </div>
+                                        </div>
+
+                                        <div class="mongo-why-sub col-md-6">
+                                            <div class="mongo-why-sub2">    
+                                                <h6 style="text-align: center;">Schema-less model</h6>
+                                                <p style="text-align: center;"><i>Applications get the power and responsibility to interpret different properties found in a collection's.</i></p>
+                                            </div>
+                                        </div>
                                         
-                                        <li><b>Native Aggregation</b></li>
-                                            <p><i>Native aggregation allows users to extract and transform data from the database. The data can either be loaded into a new format or exported to other data sources.</i></p>
-                                        
-                                        <li><b>Schema-less model</b></li>
-                                            <p><i>Applications get the power and responsibility to interpret different properties found in a collection's.</i></p>
-                                    </ol>
-                                    
+                                    </div>
                                     <br>
 
                                     <h3>Features of MongoDB</h3>
                                     <img class="img-fluid d-block mx-auto" src="img/mongo-img3.png" alt="..." />
-                                    <ul style="text-align: justify">
-                                        <li><b>General-Purpose Database</b></li>
-                                            <p><i>MongoDB can serve diverse sets of data and multiple purposes within a single application.</i></p>
+                                        <div class="row">
+                                            <div class="mongo-feature col-md-4">
+                                                <h6 style="text-align:center; padding-top: 4px;">General-Purpose Database</h6>
+                                                 <p style="text-align:center;"><i>MongoDB can serve diverse sets of data and multiple purposes within a single application.</i></p>
+                                            </div>               
+                                        
 
-                                        <li><b>Flexible Schema Design</b></li>
-                                            <p><i>The document-oriented approach allows non-defined attributes to be modified on the fly. This is a key contrast between MongoDB and other relational databases.</i></p>
-                                        
-                                        <li><b>Load Balancing and Scalability</b></li>
-                                            <p><i>It is built to scale, both vertically and horizontally. Using the technique of sharding, an architect can achieve both write and read scalability. Data balancing occurs automatically and transparently to the user by the shard balancer.</i></p>
-                                        
-                                        <li><b>Aggregation Framework</b></li>
-                                            <p><i>MongoDB offers an Extract, Transform, Load (ETL) framework which eliminates the need for complex data pipelines.</i></p>
-                                        
-                                        <li><b>Native Replication</b></li>
-                                            <p><i>Data gets replicated across a replica set without a complicated setup.</i></p>
-                                        
-                                        <li><b>Security Features</b></li>
-                                            <p><i>Autantication and authorization are taken into account.</i></p>
+                                            <div class="mongo-feature col-md-4">
+                                                <h6 style="text-align:center; padding-top: 4px;">Flexible Schema Design</h6>
+                                                <p style="text-align:center;"><i>The document-oriented approach allows non-defined attributes to be modified on the fly.</i></p>
+                                            </div>
 
-                                        <li><b>JSON</b></li>
-                                            <p><i>JSON is widely used across for frontend and API communication. It only makes sense for the database to use the same protocol.</i></p>
-                                        
-                                        <li><b>MapReduce</b></li>
-                                            <p><i>MongoDB offers a great tool, MapReduce to build data pipelines.</i></p>
-                                    
-                                    </ul>
-                                    
+                                            <div class="mongo-feature col-md-4">
+                                                <h6 style="text-align:center; padding-top: 4px;">MapReduce</h6>
+                                                <p style="text-align:center;"><i>MongoDB offers a great tool, MapReduce to build data pipelines.</i></p>
+                                            </div>
+
+                                            <div class="mongo-feature col-md-4">
+                                                <h6 style="text-align:center; padding-top: 4px;">Aggregation Framework</h6>
+                                                <p style="text-align:center;"><i>MongoDB offers an Extract, Transform, Load (ETL) framework which eliminates the need for complex data pipelines.</i></p>
+                                            </div>
+
+                                            <div class="mongo-feature col-md-4">
+                                                <h6 style="text-align:center; padding-top: 4px;">Native Replication</h6>
+                                                <p style="text-align:center;"><i>Data gets replicated across a replica set without a complicated setup.</i></p>
+                                            </div>
+
+                                            <div class="mongo-feature col-md-4">
+                                                <h6 style="text-align:center; padding-top: 4px;">JSON</h6>
+                                                <p style="text-align:center;"><i>JSON is widely used across for frontend and API communication. It only makes sense for database to use same protocol.</i></p>
+                                            </div>
+                                        </div>
                                     <br>
 
                                     <h3>Benefits of MongoDB</h3>
                                     <ul style="text-align:justify">
-                                        <li><i>NoSQL databases are cheaper and easier to maintain. NoSQL databases has features like easier data distribution, simpler data models, and automatic repair. These benefits require less administrative costs and, consequently, are less expensive.</i></li>
+                                        <li class="mongo-benifits"><i>NoSQL databases are cheaper and easier to maintain. NoSQL databases has features like easier data distribution, simpler data models, and automatic repair. These benefits require less administrative costs and, consequently, are less expensive.</i></li>
                                         <br>
-                                        <li><i>It's open-source and incurs fewer server costs. Open-source is free. NoSQL databases use cheaper servers, so the price of data storage and processing per gig is significantly lower.</i></li>
+                                        <li class="mongo-benifits"><i>It's open-source and incurs fewer server costs. Open-source is free. NoSQL databases use cheaper servers, so the price of data storage and processing per gig is significantly lower.</i></li>
                                         <br>
-                                        <li><i>It's easily and highly scalable. Since NoSQL databases like MongoDB expand horizontally, you can scale by adding more machines to your resource pool.</i></li>
+                                        <li class="mongo-benifits"><i>It's easily and highly scalable. Since NoSQL databases like MongoDB expand horizontally, you can scale by adding more machines to your resource pool.</i></li>
                                         <br>
-                                        <li><i>MongoDB has no schema hassles. You can place data into a NoSQL database without requiring a predefined schema, so you can change the data model and formats without disrupting applications.</i></li>
+                                        <li class="mongo-benifits"><i>MongoDB has no schema hassles. You can place data into a NoSQL database without requiring a predefined schema, so you can change the data model and formats without disrupting applications.</i></li>
                                         <br>
-                                        <li><i>It's user-friendly. MongoDB offers plenty of useful features (Ad-hoc queries, aggregation, capped collection, file storage, indexing, load balancing, replication, server-side JavaScript execution) that makes it a user-friendly database.</i></li>
+                                        <li class="mongo-benifits"><i>It's user-friendly. MongoDB offers plenty of useful features (Ad-hoc queries, aggregation, capped collection, file storage, indexing, load balancing, replication, server-side JavaScript execution) that makes it a user-friendly database.</i></li>
                                         <br>
-                                        <li><i>It supports integrated caching. System memory caching boosts data output performance.</i></li>
+                                        <li class="mongo-benifits"><i>It supports integrated caching. System memory caching boosts data output performance.</i></li>
                                     </ul> 
 
                                     <br>
 
                                     <h3>Working Environment of MongoDB</h3>
                                     <br>
-                                    <img class="img-fluid d-block mx-auto" src="img/mongo-img4.png" alt="..." />
-
-                                    <p>The entire database consists of collections. These collections hold multiple documents, and since
+                                    <div class="mongo-work-enviro">
+                            
+                                        <img class="img-fluid d-block mx-auto" src="img/mongo-img4.png" alt="..." />
+                        
+                                        <p class="mongo-work-enviro-p">The entire database consists of collections. These collections hold multiple documents, and since
                                         MongoDB is schemaless, the documents in one collection need not be similar. All data is stored as BSON
                                         documents with the halp of key-value pairs. At the backend, MongoDB converts JSON data into a binary
                                         format known as BSON. MongoDB also makes provision for nested data. This makes fetching data
                                         comparatively efficient. 
-                                    </p>
+                                        </p>
+                                    
+                                    </div>
                                     
                                     <br>
 
                                     <h3>MongoDB Applications</h3>
-                                    <p>Several areas of technology use MongoDB as their Database Management System.</p>
+                                    <p style="text-align: center;">Several areas of technology use MongoDB as their Database Management System.</p>
                                     <img class="img-fluid d-block mx-auto" src="img/mongo-img5.png" alt="..." />
-                                    <p>Internet of Things(IoT), mobile applications, real-time analysis, personalization, catalog management, and content management, among others, readily deploy MongoDB.</p>
+                                    <p style="text-align: center;">Internet of Things(IoT), mobile applications, real-time analysis, personalization, catalog management, and content management, among others, readily deploy MongoDB.</p>
                                     
                                     <br>
                                     
                                     <h3>MongoDB vs SQL Server</h3>
-                                    <p>The key difference between MongoDB and SQL Server</p>
+                                    <p style="text-align: center;">The key difference between MongoDB and SQL Server</p>
 
                                     <table class="mongo-table">
                                         <tr class="mongo-tr">
@@ -1434,6 +1481,92 @@
                 </div>
             </div>
         </div>
+
+        <!-- Portfolio item 9 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h1>UI/UX DESIGN</h1>
+                                    <p class="item-intro text-muted" style="padding-top:20px">UX Design refers to the term “User experience design” and UI stands for “User Interface design”. Both elements are crucial to a product and work closely together.</p>
+                                    <img class="img-fluid d-block mx-auto" src="img/UI_UX 2.png" alt="..." />
+									<h4 class="text-align-left" style="padding-top:10px"><strong>What is User Experience (UX) Design?</strong></h4>
+                                    <p>
+										User experience design is a concept that has many dimensions, and it includes a bunch of different disciplines such as interaction design, 
+										information architecture, visual design, usability, and human-computer interaction.
+									</p>
+									
+									<h4 class="text-align-left"><strong>What is User Interface (UI) Design?</strong></h4>
+                                    <p>
+										User interface (UI) design is the process designers use to build interfaces in software or computerized devices, focusing on looks or style. 
+										Designers aim to create interfaces which users find easy to use and pleasurable. UI design refers to graphical user interfaces and other forms such as voice-controlled interfaces.
+									</p>
+
+                                    <h4 style="text-align:left">The difference between UX and UI</h4>
+									<p class="item-intro text-muted" style="padding-top:20px"> User Interface (UI) and User Experience (UX) hold a very close relationship in website designing but the 
+									two are carrying extremely different responsibilities. In simple terms, UI is basically how things look while UX is mainly how things operate.
+									</p>
+									
+									<h4 style="text-align:left">Tools used by UI/UX designers</h4>
+									<ul>
+										<li class="blog-content-li">Sketch</li>
+										<li class="blog-content-li">Invision Studio</li>
+										<li class="blog-content-li">Axure</li>
+										<li class="blog-content-li">Craft</li>
+										<li class="blog-content-li">Adobe XD</li>
+										<li class="blog-content-li">Marvel</li>
+										<li class="blog-content-li">Figma</li>
+									</ul>
+									
+									<table class="mongo-table_UI">
+                                        <tr class="mongo-tr">
+                                          <th class="mongo-th">what does a UX designer do?</th>
+                                          <th class="mongo-th">What does a UI designer do?</th>
+                                        </tr>
+                                        <tr class="mongo-tr">
+                                          <td class="mongo-td">conducts user research</td>
+                                          <td class="mongo-td">Designs buttons, icons, and animations</td>
+                                        </tr>
+										<tr class="mongo-tr">
+                                          <td class="mongo-td">Creates wireframes and prototypes</td>
+                                          <td class="mongo-td">Chooses typography and color palettes</td>
+                                        </tr>
+										<tr class="mongo-tr">
+                                          <td class="mongo-td">Determines information architecture</td>
+                                          <td class="mongo-td">Creates a visual style guide</td>
+                                        </tr>
+										<tr class="mongo-tr">
+                                          <td class="mongo-td">conducts usability tests</td>
+                                          <td class="mongo-td">Creates wireframes and prototypes</td>
+                                        </tr>
+										<tr class="mongo-tr">
+                                          <td class="mongo-td">Bridges the gap between the user's needs of the business</td>
+                                          <td class="mongo-td">Ensures the design is responsive</td>
+                                        </tr>
+										<tr class="mongo-tr">
+                                          <td class="mongo-td">Collaborates with UI designers, developers and other key stakeholders</td>
+                                          <td class="mongo-td">Collaborates with UX designersand developers</td>
+                                        </tr>
+                                    </table>
+                                
+                                  <br>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close Blog
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
