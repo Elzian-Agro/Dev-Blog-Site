@@ -11834,7 +11834,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 .mongo-feature{
   width: 272px;
   height: 200px;
-  padding: 15px 8px 0px;
+  padding-left: 8px;
+  padding-right: 8px;
   margin: 5px 5px 5px 5px;
   background-color: #f6f6f6;
   transition: all 0.5s ease;
