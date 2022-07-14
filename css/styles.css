@@ -615,9 +615,9 @@ progress {
 .logo
 {
   position: absolute;
-  margin-top: 5px;
   margin-left: 40px;
   padding: 1rem;
+  height: 60px;
 }
 
 .img-thumbnail {
