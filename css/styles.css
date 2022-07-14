@@ -11832,6 +11832,10 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .mongo-feature{
+  width: 272px;
+  height: 200px;
+  padding: 15px 8px 0px;
+  margin: 5px 5px 5px 5px;
   background-color: #f6f6f6;
   transition: all 0.5s ease;
 }
@@ -11848,23 +11852,28 @@ section#contact form#contactForm :-ms-input-placeholder {
   flex-wrap: wrap;
 }
 
-.mongo-why-sub{
+.mongo-why-sub2{
   background-color: #f6f6f6;
   border-radius: 4px;
+  width: 401px;
+  height: 197px;
+  padding-top: 15px;
+  margin: 5px;
   transition: all 0.3s ease;
   outline: none;
+  margin: 0.5rem;
 }
 
-.mongo-why-sub:hover{
+.mongo-why-sub2:hover{
   background-color: #3c9238;
   background-image: linear-gradient(to right, #3c9238 , #54C04F);
   color: white;
 }
 
-.mongo-why-sub2{
-  margin: 3px;
+/*.mongo-why-sub3{
+  
 
-}
+}*/
 
 .mongo-work-enviro{
   display: flex;
