@@ -11898,10 +11898,16 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .box h3 {
-  font-size: 35px;
+  font-size: 25px;
   color: #777;
+  margin-bottom: 50px;
 }
 
+
+
+.box .button{
+  margin-top: 30px;
+}
 .box button {
   width: 140px;
   height: 40px;
@@ -11915,6 +11921,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin-top: 40px;
   opacity: 0.6;
   transition: 0.3s;
+
 }
 
 .box button:hover {
@@ -11960,7 +11967,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .box:hover h3 {
-  color: #000;
+  color: #fff;
+}
+
+.box img {
+ 
 }
 
 
