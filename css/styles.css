@@ -11890,9 +11890,31 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-color: #E7F9FF;
 }
 
+.UI-work-enviro-p{
+  margin-left: 10px;
+  background-color: #F3FFF9;
+  padding: 10px;
+}
+
+.UI-work-enviro-p:hover{
+  background-color: #D1FFD5;
+}
+
+.UI_img {
+  vertical-align: middle;
+  width: 700px;
+  height: 450px;
+  margin-top: 20px;
+}
+
+.UI_img:hover {
+  box-shadow: 0 12px 16px 0 rgba(8,177,24,0.24);
+}
+
+
 
 .box {
-  width: 300px;
+  width: 300px; 
   height: 455px;
   background-color: #fff;
   border-radius: 5px;
@@ -11980,9 +12002,8 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #fff;
 }
 
-.box img {
- 
-}
+
+
 
 
 
