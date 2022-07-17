@@ -12002,6 +12002,100 @@ section#contact form#contactForm :-ms-input-placeholder {
   color: #fff;
 }
 
+.ul_UI {
+	position: absolute;
+	
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	margin-bottom: 20px;
+	
+}
+
+.ul_UI  li {
+	list-style: none;
+	margin: 0 25px;
+	display: flex;	
+}
+
+.ul_UI  li a img {
+	width: 50px;
+	height: 50px;
+	padding-right: 10px;
+	margin-top: 25px;
+	padding-top: 10px
+}
+
+.ul_UI  li a {
+	text-decoration: none;
+	display: flex;
+	width: 150px;
+	height: 60px;
+	background: #D1FFD5;
+	text-align: left;
+	padding-left: 20px;
+	align-items: center;
+	transition: 0.5s;
+	position: relative;
+	/*box-shadow: -20px 20px 10px rgba(0,0,0,0.5);*/
+}
+
+.ul-UI li a span {
+	padding: 0;
+	margin: 0;
+	/*position: absolute;*/
+	top: 30px;
+	color: #333;
+	letter-spacing: 4px;
+	transition: 0.5s;
+}
+
+.ul_UI li a::before {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: -10px;
+	height: 100%;
+	width: 10px;
+	background: #b1b1b1;
+	transform: 0.5s;
+	transform: skewY(-45deg);
+}
+
+.ul_UI li a::after {
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	left: -5px;
+	height: 10px;
+	width: 100%;
+	background: #b1b1b1;
+	transform: 0.5s;
+	transform: skewX(-45deg);
+}
+
+.ul_UI li:hover i {
+	color: #fff;
+}
+
+.ul_UI li:hover span {
+	color: #fff;
+}
+
+.ul_UI li:hover a {
+	background-image: linear-gradient(to right, #3c9238 , #54C04F);
+	transform: translate(10px, -10px);
+	cursor: pointer;
+}
+
+.ul_UI li:hover a::before {
+	background-image: linear-gradient(to right, #3c9238 , #54C04F);
+}
+
+.ul_UI li:hover a::after {
+	background: #3c9238;
+
+}
 
 
 
